@@ -1,0 +1,74 @@
+Last Lecture Agenda
+1 Introduction 
+
+summary & Interview Questions
+NA
+
+Today's Lecture Agenda
+1 S/W installation
+2 Organisation System 
+	Entity class 
+		1 Country 
+			cid => int => primary key => autoincrement
+			cname => String 
+		2 Employee => 
+			1 id => Long => primary key => autoincrement
+			2 name => String
+			3 mobileno => String
+			4 emailid => String 
+			5 department => String 
+			6 salary => double
+			7 status => Active/Inactive/Suspend => String 
+			8 createdDate => date => java.util.date 
+			9 createdBy => String 
+			10 updatedDate => Date 
+			11 UpdatedBy => String 
+			12 Country => Object => Mapping=>  many To One 
+		
+		3 Registration =>
+			1 id => primary key => auto increment 
+			2 username
+			3 emailid => unique
+			4 password
+			5 confirm pwd 
+			6 mobile no 
+			...
+			manually 2 data add it in Registration table 
+			
+	API 
+		1 Add country => Response In String format
+		2 Update country  => Response In String format
+		3 Delete country => Response In String format
+		4 get all country => List => Array of Object 
+		5 Get particular record by id => Object => Country 
+		6 Add Employee => Response In String format
+		7 Update Employee  => Response In String format
+		8 Delete Employee  => Response In String format
+		9 Get All Employee => List => Array of Object (Employee)
+		10 Get particular Employee by id => Object => Employee
+		
+		11 Login API => Optional => input emailid & password => 
+		Response 
+			case 1 
+				Valid user 
+					{
+						"msg":"Valid User",
+						"user":{
+							User information
+						}
+					}
+			case 2 
+				InValid user 
+					{
+						"msg":"InValid User",
+						"user":null
+					}
+		12 Get list of Employee of salary range => input salaray range 
+			Response 
+				List of Employee whose salaray in above range 
+		
+		Use @CrossOrigin on Controller Class 
+			
+		
+summary & Interview Questions
+NA
