@@ -1,0 +1,51 @@
+Last Lecture Agenda
+1 fat arrow function
+let temp1=()=>{
+	.....
+	}
+	temp1()
+let temp2=(a:number,b:number):number=>{
+	return (a+b);
+	}
+2 optional parameter Functions
+	function add1(a?:number,b?:number){
+	...
+	}
+	add1(10)
+3 Default parameter function
+	function add1(a:number,b:number=20){
+	...
+	}
+	add1(10)
+4 basics of Array
+	let a:number[]=[10,20,30]
+	let a:number[]=[]
+	let a=[10,52]
+	let a=[10,'sumit']
+	
+5 join method
+	console.log(a.join(" "))
+6 foreach method 
+	a.forEach((myvalue,i,arr)=>{
+	....
+	})
+
+
+summary & Interview Questions
+1 What is Anonymous function?
+2 How to use fat arrow function?
+3 Explain optional parameter function?
+4 Explain default parameter function?
+
+Today's Lecture Agenda
+1 rest parameter function
+2 Push & pop Method
+3 Splice method
+4 slice
+5 map 
+6 json Object
+7 Array of Object 
+
+summary & Interview Questions
+1 Explain Rest Parameter function?
+2 Why we use push & pop Method
