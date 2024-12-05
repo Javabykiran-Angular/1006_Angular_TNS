@@ -1,0 +1,83 @@
+Last Lecture Agenda
+1 rest parameter function
+	function dispaly(...item:number[]){
+	...
+	}
+	dispaly(10,20)
+2 Push & pop Method
+	
+	a.push(45);
+	a.push(85,78);
+	let res=a.po();
+		
+3 Splice method
+	a.splice(1,0,45);
+	a.splice(2,0,63,96)
+	a.splice(1,1)
+	a.splice(2,1,90)
+4 slice
+	let temp= a.slice(1,9);
+5 map 
+let arr=a.map((value)=>{
+		return value*value
+	})
+6 json Object
+	let obj={
+		id:9,
+		fname:'sumit',
+		lname:"Raokhande"
+	}
+	
+7 Array of Object 
+let arrob=[
+	{
+		id:9,
+		fname:'sumit',
+		lname:"Raokhande",
+		country:{
+			cid:1,
+			cname:'India'
+		},
+		month:[...],
+		result:[
+			{
+				subj:"m1",
+				marks:40
+			},
+			...
+		]
+	},
+	....
+]
+
+for(let i=0;;i<arrob.length;i++){
+	....
+	arrob[i].id 
+	arrob[i].country.cname
+	arrob[i].month.join(" ")
+	
+	arrob.forEach((item)=>{
+		...
+		item.subj
+		...
+	})
+	
+}
+
+summary & Interview Questions
+1 Explain Rest Parameter function?
+2 Why we use push & pop Method
+
+
+Today's Lecture Agenda
+1 Class
+2 Property
+3 method 
+4 Constructor, Access Specifier
+5 access in same package=folder
+6 access in Different package
+
+summary & Interview Questions
+1 Explain Array of Object
+2 What is Object 
+3 What is property,class & object?
