@@ -1,0 +1,73 @@
+Last Lecture Agenda
+1 Class
+	demo1.ts
+	export class Myclass{
+		id:numer;
+		..
+		constructor(id:number,...){
+			this.id=id;
+		}
+		display(){
+		
+		....
+			this.id 
+		}
+	}
+	
+	let obj=new Myclass(...);
+	obj.display();
+	
+demo2.ts 
+import {Myclass} from './demo1';
+....
+let obj=new Myclass(...);
+	obj.display();
+	
+Myfolder/demo3.ts
+
+import {Myclass} '../day07/demo1';
+let obj=new Myclass(...);
+	obj.display();	
+	
+2 Property
+3 method 
+4 Constructor, Access Specifier
+5 access in same package=folder
+6 access in Different package
+
+summary & Interview Questions
+1 Explain Array of Object
+2 What is Object 
+3 What is property,class & object?
+
+Today's Lecture Agenda
+1 Application flow 
+2 Component Creation 
+	1 Manual 
+	2 Angular CLI 
+		ng g c componentName
+3 Bootstrap Integration
+	- It is a CSS Freamwork 
+	- To make application Attractive
+	- To make application responsive 
+	- It has inbuilt CSS Classes 
+	1 Online Integration 
+		
+	2 offline Integration
+		npm install bootstrap@5.0.*
+4 Data Binding 
+	- Data flow from component to View & vice versa 
+	1 one way data binding 
+		- Data flow from component (ts) to view file (html)
+			1 string Interpolation 
+			2 property binding
+			3 style binding
+			4 class binding
+		
+	2 two way data binding 
+5 String Interpolation
+
+summary & Interview Questions
+1 Explain Angular Application Flow 
+2 Explain Data Binding
+3 Explain String Interpolation
