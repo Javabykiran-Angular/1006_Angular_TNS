@@ -1,0 +1,42 @@
+Last Lecture Agenda
+1 Application flow 
+2 Component Creation 
+	1 Manual 
+	2 Angular CLI 
+		ng g c componentName
+3 Bootstrap Integration
+	- It is a CSS Freamwork 
+	- To make application Attractive
+	- To make application responsive 
+	- It has inbuilt CSS Classes 
+	1 Online Integration 
+		
+	2 offline Integration
+		npm install bootstrap@5.0.*
+4 Data Binding 
+	- Data flow from component to View & vice versa 
+	1 one way data binding 
+		- Data flow from component (ts) to view file (html)
+			1 string Interpolation 
+			2 property binding
+			3 style binding
+			4 class binding
+		
+	2 two way data binding 
+5 String Interpolation
+
+summary & Interview Questions
+1 Explain Angular Application Flow 
+2 Explain Data Binding
+3 Explain String Interpolation
+
+Today's Lecture Agenda
+1 Property Binding	
+2 difference between String interpolation & property Binding 
+3 Style Binding
+
+summary & Interview Questions
+1 Explain Data Binding
+2 Explain String Interpolation
+3 Explain Property Binding 
+4 What is difference between String interpolation & property Binding 

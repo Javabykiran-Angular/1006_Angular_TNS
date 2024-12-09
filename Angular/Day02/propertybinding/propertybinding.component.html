@@ -1,0 +1,23 @@
+<p>propertybinding works!</p>
+<!-- 
+    - If u want bind a peroperty to particular html attribute/directive/custom attribute 
+    syntax 
+    [attribute]="propertyName"
+    - u can apply any html tag 
+-->
+
+<input [value]="name" type="text" class="form-control w-25" placeholder="enter the name "> <br>
+
+<img class="myimg" [src]="imgUrl" alt="">
+<hr>
+<div>
+    difference between String interpolation & property Binding 
+</div>
+
+<div hidden="{{ishidden}}">
+    Display the text using String interpolation
+</div>
+
+<div [hidden]="ishidden">
+    Display the text using Property Binding
+</div>
