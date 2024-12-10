@@ -1,0 +1,48 @@
+Last Lecture Agenda
+1 Property Binding	
+	<input [value]="name">
+	
+	.ts 
+	name:string='....';
+	
+2 difference between String interpolation & property Binding 
+	<div hidden=" {{ishidden}} ">
+	<div [hidden]="ishidden">
+		....
+	
+	..
+	ishidden:boolena=false;
+3 Style Binding
+	<h2 [style.color]="mycolor">....
+	
+	<h2 [style.color]="rating<4?'red':'green'">
+	
+	<div [ngStyle]="jsonObj">
+		
+	
+	.ts 
+	mycolor:string='blue';
+	rating:number=2;
+	jsonObj={
+		color:'red',
+		fontSize:'..',
+		"fony-family":""
+	}
+
+summary & Interview Questions
+1 Explain Data Binding
+2 Explain String Interpolation
+3 Explain Property Binding 
+4 What is difference between String interpolation & property Binding 
+
+Today's Lecture Agenda
+1 class Binding
+2 Event Binding
+- fLOW is from view file to component file 
+- Click Event 
+3 Template Ref Variable
+
+summary & Interview Questions
+1 Explain Class Binding
+2 What is DOM?
+3 What is Template Ref Variable

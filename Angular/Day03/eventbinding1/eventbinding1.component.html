@@ -1,0 +1,28 @@
+<p>eventbinding1 works!</p>
+<!-- 
+    (eventName)="EventHandler"
+
+    - EventHandler => ur custom method name 
+    - u can apply any html tag 
+-->
+    <button (click)="onClick()" class="btn btn-success">Click</button>
+    <br><br>
+    <img (click)="onImage()" src="../../assets/bg12.jpg" alt="Internet Problem" title="On Image Click" >
+    <br><br>
+    <!-- 
+    Template Ref Variable
+     - to get a data from html element.
+     - It hold the Object/handle of particular html element to get a DOM data  
+     - Syntax 
+        #UniqueName
+    - U can apply any HTML Tag
+    -->
+
+    <input #myname type="text" class="form-control w-25" placeholder="Enter the Name">
+    <br>
+    <button (click)="onSend(myname)" >Send</button>
+    <br><br>
+
+    <input #myname1 type="text" class="form-control w-25" placeholder="Enter the Name">
+    <br>
+    <button (click)="onSend1(myname1.value)" >Send</button>
