@@ -1,0 +1,37 @@
+<p>eventbinding2 works!</p>
+<!-- <div class="container">
+
+<label for="">Num1::</label>
+<input #num1 type="number" placeholder="Enter the Num1" class="form-control w-25"> <br>
+
+<label for="">Num2::</label>
+<input #num2 type="number" placeholder="Enter the Num2" class="form-control w-25"> <br>
+
+<button (click)="onAddition(num1.value,num2.value)" class="btn btn-info">Addition</button>
+<br> <br>
+
+<input [value]="result" type="text" class="form-control w-25" placeholder="Result">
+</div> -->
+
+<!-- change event
+    (change)="eventHandler"
+    - U can apply any html tag 
+-->
+
+<!-- <input type="text" (change)="onChange()"  class="form-control w-25"  placeholder="Enter the name"> -->
+
+<!-- <input #name (keyup)="onKeyUp(name.value)" type="text" class="form-control w-25"  placeholder="Key up Event "> -->
+
+<!-- <input  (keydown)="onKeyDown()" type="text" class="form-control w-25" 
+placeholder="Key down Event "> -->
+
+<!-- <input type="text" placeholder="Enter the Name " class="form-control w-25" 
+(keyup.enter)="onKeyEnter()"
+> -->
+
+<!-- <button (click)="myresult=8+8" >Operation</button> {{myresult}} -->
+
+
+<input type="text" 
+    [(ngModel)]="myname"
+placeholder="Enter the Name"> {{myname}}

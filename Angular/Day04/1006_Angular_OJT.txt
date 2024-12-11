@@ -1,0 +1,87 @@
+Last Lecture Agenda
+1 class Binding
+	<h2 [class]="myclass" > Apply class Binding</h2>
+	
+	<h2 [class.danger]="rating<4" 
+		[class.warning]="rating>4"
+	> Apply class Binding on condition</h2>
+	
+	<div [ngClass]="jsonObj">
+		...
+	</div>
+	
+	.ts 
+	myclass:string='success';
+	rating:number=2;
+	isError:boolean=true;
+	isSpecial:boolean=true;
+	jsonObj={
+		'success':!this.isError,
+		'danger': this.isError,
+		'special': this.isSpecial
+	}
+	
+	
+	
+2 Event Binding
+	<button (click)="onClick()">
+	
+	.ts 
+	onClick(){
+	....
+	}
+	
+- fLOW is from view file to component file 
+- Click Event 
+3 Template Ref Variable
+	<input #myname>
+	<button (click)="onSend(myname)">
+	<input #myname1>
+	<button (click)="onSend1(myname1.value)">
+	
+	.ts 
+	onSend(name1:any){
+		...
+		console.logic(name1.value);
+		name1.style.background='green';
+		name1.style.color='white';
+		
+	}
+	
+	onSend1(myname1:any){
+		...
+	}
+
+summary & Interview Questions
+1 Explain Class Binding
+2 What is DOM?
+3 What is Template Ref Variable
+
+Today's Lecture Agenda
+1 Real Time example
+2 change event 
+3 K/B Event
+	1 keyup
+	2 keydown
+4 Event Filtering
+	- u can apply on specific key 
+5 event binding without event Handler 
+	- pre condition
+			u have to create a property 
+			- one line logic is there
+6 Two way data binding
+	- ngModel 
+	- It is attribute directive 
+	- It gets a updatated data into the property
+	- We have to import FormsModule into app.module.ts file => import section 
+	- we used one notation i.e banana in box noatation
+	- [(ngModel)]="property Name"
+	- u can apply any html tag 
+
+summary & Interview Questions
+1 explain k/b event?
+2 What is event filtering?
+3 What is Two way data binding?
+4 Explain ngModel?
+5 what is purpose of ngModel?
+
