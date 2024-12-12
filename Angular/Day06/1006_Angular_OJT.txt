@@ -1,0 +1,115 @@
+Last Lecture Agenda
+1 Structural Directive
+	- DOM Structure u can update/manipulate/hide a particular element dynamically 
+	1 *ngIf => u can check the condition on view file dynamically
+	2 *ngFor => to iterate dynamically 
+	3 *ngSwitch => to execute a specific condition 
+2 if directive
+	ng-template => It is component Directive
+	
+	<div *ngIf="rating<4;else myelsepart">
+		..
+	</div>
+	
+	<ng-template #myelsepart>
+		....
+	</ng-template>
+	
+	.ts 
+	rating:number=21;
+	
+3 for directive
+
+	arrproduct:any[]=[
+		{
+			...
+		},
+		{
+		
+		}
+	];
+	
+	.html
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr *ngFor="let item of arrproduct;index as i"
+				(mouseover)="onMouseOver(item)"
+				(mouseout)="onMouseOut()"
+				[ngClass]="{
+					'highlight':selected==item.name
+				}"
+			>
+				<td> {{i+1}} </td>
+				<td> {{item.name}}</td>
+				...
+			</tr>
+		</tbody>
+	</table>
+	.ts 
+	
+	onMouseOver(item:any){
+		this.selected=item.name;
+	}
+	
+	onMouseOut(){
+		this.selected='';
+	}
+
+4 Mouse Event 
+	1 mouseover
+	2 mouseout
+
+summary & Interview Questions
+1 What is structural directive
+2 How *ngIf works?
+3 Why we use *ngFor directive?
+
+Today's Lecture Agenda
+1 *ngSwitch
+2 Component Interaction
+	- U can send data from one component to another component
+	- parent-child relation establishment
+3 @Input()
+	- To send a data from parent component to child component
+
+summary & Interview Questions
+1 How to use Switch Directive
+2 What is Component interaction
+3 How to use component interaction
+4 why we use @input decorator?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
