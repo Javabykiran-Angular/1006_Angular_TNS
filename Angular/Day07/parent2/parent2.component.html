@@ -1,0 +1,28 @@
+<p>parent2 works!</p>
+<h2> {{childStrDataReceived}} </h2>
+
+<div class="container-fluid">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>Product Name</th>
+                <th>Product Price</th>
+                <th>Product Qty </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of childArrObj;index as i">
+                <td> {{i+1}} </td>
+                <td> {{item.name}} </td>
+                <td> {{item.price}} </td>
+                <td> {{item.qty}} </td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+
+<hr>
+<app-child2 (childStrEvent)="childStrDataReceived=$event"
+            (childArrObjEvent)="childArrObj=$event"
+></app-child2>

@@ -1,0 +1,58 @@
+Last Lecture Agenda
+1 *ngSwitch
+2 Component Interaction
+	- U can send data from one component to another component
+	- parent-child relation establishment
+3 @Input()
+	- To send a data from parent component to child component
+
+summary & Interview Questions
+1 How to use Switch Directive
+2 What is Component interaction
+3 How to use component interaction
+4 why we use @input decorator?
+
+Today's Lecture Agenda
+1 @Output()
+	- To send data from child component to parent component
+2 Pipe
+	- it transform ur data without changing its original value 
+	- Pipe used on View File 
+3 Inbuild Pipe 
+
+summary & Interview Questions
+1 What is Pipe 
+2 Why we Use pipe?
+3 how inbuild pipe work?
+4 which are inbuild pipes are there list it?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
