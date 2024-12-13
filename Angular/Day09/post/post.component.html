@@ -1,0 +1,29 @@
+<p>post works!</p>
+
+<div class="container-fluid">
+    <label for="">Title::</label>
+    <input #mytitle type="text" class="form-control w-25" placeholder="Enter the Title"> <br>
+    <label for="">Body::</label>
+    <input #mybody type="text" class="form-control w-25" placeholder="Enter the Body"> <br><br>
+    <button (click)="onSubmit(mytitle.value,mybody.value)" class="btn btn-success">Submit</button>
+</div>
+<br>
+
+<div class="container-fluid">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Body</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of posts">
+                <td> {{item.id}} </td>
+                <td> {{item.title}} </td>
+                <td> {{item.body}} </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

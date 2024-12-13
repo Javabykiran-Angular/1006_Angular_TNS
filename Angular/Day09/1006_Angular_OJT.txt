@@ -1,0 +1,136 @@
+Last Lecture Agenda
+1 Custome Pipe
+	1 through the CLI pipe create 
+		ng g p pipename
+	2 manual pipe created 
+2 PipeTransform
+	- It is interface 
+	
+3 transform(value :any,...arg:any[])
+@Pipe
+	- Class level Decorator
+4 Pure Pipe
+5 Impure Pipe
+
+6 Http Method
+	1 get => to get Data from backend Server
+	2 post => to send data from front end server to backend Server
+	3 put  => to update a Record 
+	4 delete  => to delete a Record 
+Which protocol we have to use => http 
+	
+7 Http Request & Http response 
+
+Http Request
+	It has 2 parts 
+		1 Http header
+			- Http end point Url 
+			- Http Method
+			- Ip Address
+			- Content Type 
+				1 image
+				2 audio
+				3 video
+				4 doc
+				5 pdf 
+				6 json file 
+				...
+			- Auth Token 
+			- Date & time 
+			....
+		2 Http Body 
+			- data 
+				1 json 
+				2 html/text
+				3 xml (outdatated)
+
+Http response
+	It has 2 parts 
+		1 Http header
+			- Http end point Url 
+			- Http Method
+			- Ip Address
+			- Content Type 
+				1 image
+				2 audio
+				3 video
+				4 doc
+				5 pdf 
+				6 json file 
+				...
+			- Auth Token 
+			- Date & time 
+			
+			Status code 
+			1 2xx => 200-299 => ok,success
+			2 3xx => 300-399 => Redirection
+			3 4xx => 400-499 => Client Side error 
+			4 5xx => 500-599 => Server Side Error
+			
+			....
+		2 Http Body 
+			- data 
+				1 json 
+				2 html/text
+				3 xml (outdatated)
+
+8 HttpClientModule 
+	- We have to register => in app.module.ts file 
+	- In Import section we have to register 
+9 To Create a Http Service (custom service )
+	- We write our Business Logic 
+	- It is simple class 
+	- it is used for code maintainbility
+	- it is used for code resuability
+	- It provides a isolation to ur component 
+
+10 https://jsonplaceholder.typicode.com/posts	
+	- It is a fake service 
+		Whatever data u r sending or updating/ deleting that changes is not stored in database but it gives a response of ur request. 
+	
+summary & Interview Questions
+1 How to create Custome Pipe?
+2 What is use of PipeTransform?
+3 Explain Types of Pipe 
+
+Today's Lecture Agenda
+1 @Injectable
+2 What is observable
+3 get method
+4 post method
+
+summary & Interview Questions
+1 How to Connect Backend Server 
+2 How to use get method
+3 How to use post method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
