@@ -1,0 +1,51 @@
+Last Lecture Agenda
+1 @Injectable
+2 What is observable
+3 get method
+4 post method
+
+summary & Interview Questions
+1 How to Connect Backend Server 
+2 How to use get method
+3 How to use post method
+
+Today's Lecture Agenda
+1 put method 
+2 delete method 
+3 error handling 
+
+summary & Interview Questions
+1 How to Update record in Angular?
+2 How to Delete record in Angular?
+2 How to Handle errors in Angular?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
