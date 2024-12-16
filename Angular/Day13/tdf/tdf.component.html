@@ -1,0 +1,43 @@
+<p>tdf works!</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 col-sm-4 col-md-6">
+            <form #f="ngForm" >
+            <div class="mt-2 mb-2">
+                <label for="">Username::</label>
+                <input type="text" ngModel name="myusername"
+                #username="ngModel" required minlength="5"
+                class="form-control" placeholder="Enter the Username">
+
+                <div class="alert alert-danger"
+                    *ngIf="username.touched && !username.valid"
+                > ** Please Enter the Username...
+
+                    <div *ngIf="username.errors?.['minlength']">** Please Enter the minimum {{username.errors?.['minlength'].requiredLength}} characters
+                        
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div class="mt-2 mb-2">
+                <label for="">comment::</label>
+                <textarea ngModel 
+                 name="comment" #comment="ngModel" required id="" class="form-control" placeholder="Enter the comment"></textarea>
+
+                 <div class="alert alert-danger"
+                    *ngIf="comment.touched && comment.invalid"
+                 >** Please Enter the comment
+
+                 </div>
+
+            </div>
+            <br>
+            <button [disabled]="!f.valid" class="btn btn-outline-success">Submit</button>
+        </form>
+        </div>
+    </div>
+</div>
