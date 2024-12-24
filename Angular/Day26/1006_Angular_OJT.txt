@@ -1,0 +1,52 @@
+Last Lecture Agenda
+1 Notification => HW Task Completed 
+2 Pagination
+3 Lazy loading
+	ng g m dashboard --routing
+
+summary & Interview Questions
+NA for This Session
+
+
+Today's Lecture Agenda
+1 Create  environment
+ng g environments
+2 final build
+3 Host on github
+
+summary & Interview Questions
+NA for This Session
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
